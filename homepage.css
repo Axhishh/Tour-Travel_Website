@@ -1,0 +1,507 @@
+@font-face {
+    font-family: 'PT_Sans';
+    src: url(Roboto );
+}
+
+* {
+    font-family: 'PT_Sans', sans-serif;
+}
+
+
+
+* {
+    margin: 0;
+}
+
+.navbar {
+    height: 110px;
+    display: flex;
+    align-items: center;
+    background-color: #07102F;
+}
+
+.logo {
+    width: px;
+    height: 250px;
+    cursor: pointer;
+    margin-right: 99px;
+    margin-top: 2%;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    margin-right: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+nav ul li a {
+    margin: 0 auto;
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0.5s ease;
+    margin-top: 16px;
+    letter-spacing: 4px;
+
+}
+
+nav ul li a:hover {
+
+    background-color: white;
+    color: black;
+}
+
+
+/* END OF NAVIGATION BAR */
+
+
+
+
+
+/* BODY STARTS */
+
+
+
+.body {
+    height: 800px;
+}
+
+.body1 {
+    height: 2700px;
+}
+
+.discount {
+    position: absolute;
+    width: 100%;
+    height: 87%
+}
+
+.login-box {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 900px;
+    height: 70px;
+    padding: 30px;
+    transform: translate(-50%, -50%);
+    background-color: orange;
+    border: 2px solid rgba(255, 255, 255, 0.107);
+    box-sizing: border-box;
+    border-radius: 1em;
+}
+
+.login-box form a {
+    position: absolute;
+    top: 10%;
+    width: 304px;
+    left: 1%;
+    display: inline-block;
+    padding: 18px;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-bottom: 90px;
+    letter-spacing: 2px;
+
+}
+
+.login-box1 form a {
+    position: absolute;
+    top: 96.74%;
+    width: 304px;
+    left: 44%;
+    display: inline-block;
+    padding: 18px;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-bottom: 90px;
+    letter-spacing: 2px;
+
+}
+
+.login-box2 form a {
+    position: absolute;
+    top: 96.74%;
+    width: 139px;
+    left: 68.3%;
+    display: inline-block;
+    padding: 18px;
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    margin-bottom: 90px;
+    letter-spacing: 2px;
+
+}
+
+/* Text Options Start */
+
+.pop {
+    margin-top: 3%;
+    margin-left: 13.5%;
+    color: black;
+}
+
+.popi {
+    margin-top: 1%;
+    margin-left: 13.5%;
+    color: black;
+}
+
+.stay {
+    margin-top: 5%;
+    margin-left: 13.5%;
+    color: black;
+}
+
+.stays {
+    margin-top: 1%;
+    margin-left: 13.5%;
+    color: black;
+}
+
+.ind {
+    margin-top: 6%;
+    margin-left: 13.5%;
+    color: black;
+}
+
+.hotel{
+    margin-top: -61.5%;
+    margin-left: 13.7%;
+    color: black;
+}
+
+.hotel1{
+    margin-left: 33%;
+    margin-top: -1%;
+}
+
+.hotel2{
+    margin-left: 52.1%;
+    margin-top: -1%;
+}
+
+
+.hotel3{
+    margin-left: 71%;
+    margin-top: -1%;
+}
+
+
+.price{
+   margin-left: 13.67%;
+}
+
+.price1{
+    margin-left: 33%;
+    margin-top: -1%;
+ }
+
+ .price2{
+    margin-left: 52.1%;
+    margin-top: -1%;
+ }
+
+
+ .price3{
+    margin-left: 71%;
+    margin-top: -1%;
+ }
+
+
+
+/* Text Options End */
+
+
+
+/* Card Options Starts */
+
+.card1 {
+    width: 250px;
+    height: 140px;
+    margin-left: 13.5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/Himachal-Pradesh.jpg);
+}
+
+.card2 {
+    width: 250px;
+    height: 140px;
+    margin-top: -9.76%;
+    margin-left: 32.5%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/Goa.jpg);
+}
+
+.card3 {
+    width: 250px;
+    height: 140px;
+    margin-left: 51.5%;
+    margin-top: -9.75%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/Karnataka.jpg);
+}
+
+.card4 {
+    width: 250px;
+    height: 140px;
+    margin-top: -9.75%;
+    margin-left: 70.5%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/Kerala.jpg);
+}
+
+
+.card5 {
+    width: 250px;
+    height: 140px;
+    margin-left: 13.5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/Rajasthan.jpg);
+}
+
+.card6 {
+    width: 250px;
+    height: 140px;
+    margin-top: -9.76%;
+    margin-left: 32.5%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/Punjab.jpg);
+}
+
+.card7 {
+    width: 250px;
+    height: 140px;
+    margin-left: 51.5%;
+    margin-top: -9.75%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/Uttar-Pradesh.jpg);
+}
+
+.card8 {
+    width: 250px;
+    height: 140px;
+    margin-top: -9.75%;
+    margin-left: 70.5%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/Jammu-and-Kashmir.jpg);
+}
+
+
+.scard1 {
+    width: 250px;
+    height: 140px;
+    margin-left: 13.5%;
+    margin-top: 2%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/hotel-sarang-palace.jpg);
+}
+
+.scard2 {
+    width: 250px;
+    height: 140px;
+    margin-top: -9.76%;
+    margin-left: 32.5%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/treehouse.jpg);
+}
+
+.scard3 {
+    width: 250px;
+    height: 140px;
+    margin-left: 51.5%;
+    margin-top: -9.75%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/fortune\ park\ panchwati\ kolkata.png);
+}
+
+.scard4 {
+    width: 250px;
+    height: 140px;
+    margin-top: -9.75%;
+    margin-left: 70.5%;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+    background-image: url(images/Beaches-Turks-Caicos-Overview.jpg);
+}
+
+.rating{
+    width: px;
+    height: 70px;
+    cursor: pointer;
+    margin-left: 13.7%;
+    margin-bottom: 60%;
+}
+
+.rating1{
+    width: px;
+    height: 70px;
+    cursor: pointer;
+    margin-left: 14.0%;
+    margin-bottom: 60%;
+}
+
+.rating2{
+    width: px;
+    height: 70px;
+    cursor: pointer;
+    margin-left: 14.0%;
+    margin-bottom: 60%;
+}
+
+.rating3{
+    width: px;
+    height: 70px;
+    cursor: pointer;
+    margin-left: 14.0%;
+    margin-bottom: 60%;
+}
+
+
+
+/* Card Options End */
+
+
+video{
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    margin-left: -12.5%;
+    margin-top: 1%;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.imgh{
+    width: px;
+    height: 395px;
+    cursor: pointer;
+    margin-left: 63%;
+    margin-top: 2%;
+}
+
+.untitle{
+    width: px;
+    height: 610px;
+    cursor: pointer;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.line{
+    width:50%;
+    margin-left: 24.5%;
+    color: gray;
+    margin-top: 4%;
+}
+
+.city{
+        width: px;
+        height: 580px;
+        cursor: pointer;
+        margin-left: 13%;
+        margin-top: 6%;
+}
+
+/* BODY END */
+
+
+/* TASKBAR */
+.taskbar {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    background-color: #07102F;
+}
+
+.tii {
+    width: 80%;
+    height: 60%;
+    margin-top: 2%;
+    margin-left: 2%;
+    color: white;
+}
+
+.brand {
+    margin-left: 49%;
+    height: 80px;
+}

@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'PT_Sans';
+    src: url(Roboto );
+}
+
+* {
+    font-family: 'PT_Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+.body2 {
+    height: 2000px;
+}
+
+.logo {
+    width: 180px;
+    height: 200px;
+    cursor: pointer;
+    margin-right: 99px;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.india {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 66%;
+}
+
+.mail {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 2%;
+}
+
+.navbar {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    background-color: #07102F;
+}
+
+
+
+
+.made{
+        width: px;
+        height: 190px;
+        cursor: pointer;
+        margin-right: 99px;
+        margin-top: 25%;
+        margin-left: -68%;
+}
+
+
+.made1{
+    width: px;
+    height: 500px;
+    cursor: pointer;
+    margin-right: 99px;
+    margin-top: 64%;
+    margin-left: -65%;
+}
+
+.made2{
+    width: px;
+    height: 300px;
+    cursor: pointer;
+    margin-right: 99px;
+    margin-top: 130%;
+    margin-left: -62%;
+}
+
+.znmd{
+    width: px;
+    height: 200px;
+    cursor: pointer;
+    margin-right: 99px;
+    margin-top: 170%;
+    margin-left: -48%;
+}
+
+.goals{
+    
+        width: px;
+        height: 550px;
+        cursor: pointer;
+        margin-right: 99px;
+        margin-top: 230%;
+        margin-left: -58%;
+    }
